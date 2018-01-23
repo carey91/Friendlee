@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23CEC332C0BCE9FD1975651F /* Pods_Friendlee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B103E120F51C81AB255C6A2D /* Pods_Friendlee.framework */; };
+		D935E1A52015F26200BA009C /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D935E1A42015F26200BA009C /* UserDataModel.swift */; };
+		D969D1C02015A6940099ACF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969D1BF2015A6940099ACF7 /* AppDelegate.swift */; };
+		D969D1C22015A6940099ACF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D969D1C12015A6940099ACF7 /* ViewController.swift */; };
+		D969D1C52015A6940099ACF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D969D1C32015A6940099ACF7 /* Main.storyboard */; };
+		D969D1C82015A6940099ACF7 /* Friendlee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D969D1C62015A6940099ACF7 /* Friendlee.xcdatamodeld */; };
+		D969D1CA2015A6940099ACF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D969D1C92015A6940099ACF7 /* Assets.xcassets */; };
+		D969D1CD2015A6940099ACF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D969D1CB2015A6940099ACF7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A134CCBE4EFE848DF5B50E48 /* Pods-Friendlee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendlee.release.xcconfig"; path = "Pods/Target Support Files/Pods-Friendlee/Pods-Friendlee.release.xcconfig"; sourceTree = "<group>"; };
+		B103E120F51C81AB255C6A2D /* Pods_Friendlee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Friendlee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C94E8967C4F3D03622CA34B0 /* Pods-Friendlee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendlee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Friendlee/Pods-Friendlee.debug.xcconfig"; sourceTree = "<group>"; };
+		D935E1A42015F26200BA009C /* UserDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+		D969D1BC2015A6940099ACF7 /* Friendlee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendlee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D969D1BF2015A6940099ACF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D969D1C12015A6940099ACF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D969D1C42015A6940099ACF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D969D1C72015A6940099ACF7 /* Friendlee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Friendlee.xcdatamodel; sourceTree = "<group>"; };
+		D969D1C92015A6940099ACF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D969D1CC2015A6940099ACF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D969D1CE2015A6940099ACF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D969D1B92015A6940099ACF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23CEC332C0BCE9FD1975651F /* Pods_Friendlee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A9750C69468591F0D9DE0E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B103E120F51C81AB255C6A2D /* Pods_Friendlee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D969D1B32015A6940099ACF7 = {
+			isa = PBXGroup;
+			children = (
+				D969D1BE2015A6940099ACF7 /* Friendlee */,
+				D969D1BD2015A6940099ACF7 /* Products */,
+				DD3A49565A9EF3DAD0BC33C6 /* Pods */,
+				3A9750C69468591F0D9DE0E1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D969D1BD2015A6940099ACF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D969D1BC2015A6940099ACF7 /* Friendlee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D969D1BE2015A6940099ACF7 /* Friendlee */ = {
+			isa = PBXGroup;
+			children = (
+				D969D1D72015A6F50099ACF7 /* Supporting Files */,
+				D969D1D62015A6E90099ACF7 /* Controller */,
+				D969D1D52015A6DF0099ACF7 /* View */,
+				D969D1D42015A6D90099ACF7 /* Model */,
+			);
+			path = Friendlee;
+			sourceTree = "<group>";
+		};
+		D969D1D42015A6D90099ACF7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D935E1A42015F26200BA009C /* UserDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D969D1D52015A6DF0099ACF7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D969D1C32015A6940099ACF7 /* Main.storyboard */,
+				D969D1CB2015A6940099ACF7 /* LaunchScreen.storyboard */,
+				D969D1C92015A6940099ACF7 /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D969D1D62015A6E90099ACF7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D969D1C12015A6940099ACF7 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D969D1D72015A6F50099ACF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D969D1BF2015A6940099ACF7 /* AppDelegate.swift */,
+				D969D1CE2015A6940099ACF7 /* Info.plist */,
+				D969D1C62015A6940099ACF7 /* Friendlee.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD3A49565A9EF3DAD0BC33C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C94E8967C4F3D03622CA34B0 /* Pods-Friendlee.debug.xcconfig */,
+				A134CCBE4EFE848DF5B50E48 /* Pods-Friendlee.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D969D1BB2015A6940099ACF7 /* Friendlee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D969D1D12015A6940099ACF7 /* Build configuration list for PBXNativeTarget "Friendlee" */;
+			buildPhases = (
+				6D431CA212D3CF7B880351F3 /* [CP] Check Pods Manifest.lock */,
+				D969D1B82015A6940099ACF7 /* Sources */,
+				D969D1B92015A6940099ACF7 /* Frameworks */,
+				D969D1BA2015A6940099ACF7 /* Resources */,
+				220E1986967D2367BCB65EB0 /* [CP] Embed Pods Frameworks */,
+				42284DF31BDFEB40079BF0E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Friendlee;
+			productName = Friendlee;
+			productReference = D969D1BC2015A6940099ACF7 /* Friendlee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D969D1B42015A6940099ACF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Ruah;
+				TargetAttributes = {
+					D969D1BB2015A6940099ACF7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D969D1B72015A6940099ACF7 /* Build configuration list for PBXProject "Friendlee" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D969D1B32015A6940099ACF7;
+			productRefGroup = D969D1BD2015A6940099ACF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D969D1BB2015A6940099ACF7 /* Friendlee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D969D1BA2015A6940099ACF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D969D1CD2015A6940099ACF7 /* LaunchScreen.storyboard in Resources */,
+				D969D1CA2015A6940099ACF7 /* Assets.xcassets in Resources */,
+				D969D1C52015A6940099ACF7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220E1986967D2367BCB65EB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Friendlee/Pods-Friendlee-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerView/CountryPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/Navajo-Swift/Navajo_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Navajo_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Friendlee/Pods-Friendlee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42284DF31BDFEB40079BF0E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Friendlee/Pods-Friendlee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D431CA212D3CF7B880351F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Friendlee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D969D1B82015A6940099ACF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D935E1A52015F26200BA009C /* UserDataModel.swift in Sources */,
+				D969D1C22015A6940099ACF7 /* ViewController.swift in Sources */,
+				D969D1C02015A6940099ACF7 /* AppDelegate.swift in Sources */,
+				D969D1C82015A6940099ACF7 /* Friendlee.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D969D1C32015A6940099ACF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D969D1C42015A6940099ACF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D969D1CB2015A6940099ACF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D969D1CC2015A6940099ACF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D969D1CF2015A6940099ACF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D969D1D02015A6940099ACF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D969D1D22015A6940099ACF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94E8967C4F3D03622CA34B0 /* Pods-Friendlee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74AR98PLBD;
+				INFOPLIST_FILE = "$(SRCROOT)/Friendlee/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruah.Friendlee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D969D1D32015A6940099ACF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A134CCBE4EFE848DF5B50E48 /* Pods-Friendlee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74AR98PLBD;
+				INFOPLIST_FILE = "$(SRCROOT)/Friendlee/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ruah.Friendlee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D969D1B72015A6940099ACF7 /* Build configuration list for PBXProject "Friendlee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D969D1CF2015A6940099ACF7 /* Debug */,
+				D969D1D02015A6940099ACF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D969D1D12015A6940099ACF7 /* Build configuration list for PBXNativeTarget "Friendlee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D969D1D22015A6940099ACF7 /* Debug */,
+				D969D1D32015A6940099ACF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D969D1C62015A6940099ACF7 /* Friendlee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D969D1C72015A6940099ACF7 /* Friendlee.xcdatamodel */,
+			);
+			currentVersion = D969D1C72015A6940099ACF7 /* Friendlee.xcdatamodel */;
+			path = Friendlee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D969D1B42015A6940099ACF7 /* Project object */;
+}
